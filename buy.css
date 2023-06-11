@@ -1,0 +1,248 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+   scroll-behavior: smooth;
+    text-decoration: none;
+border:0px;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2{
+  font-family: 'Tilt Neon', cursive;
+
+}
+h3{
+  font-family: 'Open Sans', sans-serif;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+
+}
+p{
+    font-family: 'Tilt Neon', cursive;
+
+}
+@media screen and (max-width:600px){
+  section#first-section{
+    width: 90%;
+    margin:0 auto;
+    flex-direction: column;
+    display: flex;
+    margin-top: 5rem;
+  }
+ section#first-section .first-section-top{
+   display:flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   margin-bottom: 2rem;
+   color:var(--text-color);
+   transition: 0.6s ease-out;
+ }
+  
+section#first-section .first-section-link  {
+ width:100%;
+  
+}
+  
+  section#first-section .first-section-link h4 a  {
+        font-size: 17px;
+        color: lightsalmon;
+        
+        
+  }
+  
+  section#first-section .first-section-link  h4 a:hover{
+       color:red;
+}
+  
+  .swiper{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+   .swiper .swiper-wrapper .swiper-slide img{
+     width: 99%;
+  
+    } 
+  
+  
+ section#section-container{
+   margin-bottom: 2rem ;
+ }
+.card-container{
+  width:90%;
+  height:90px;
+  overflow: hidden;
+  margin: 0 auto 2px;
+  background-color:lightsalmon;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+  padding: 10px 5px 10px 5px;
+  border-radius: 5px;
+  transition: 0.7s ease;
+  position:relative;
+}
+  .accordion{
+    width: 10%;
+    float: right;
+    position: absolute;
+    z-index:3;
+    margin-top: 11px;
+    right:24px;
+    background: lightsalmon;
+    
+  }
+  .accordion i{
+    padding: 5px 5px;
+    font-size: 20px;
+    background-color: lightsalmon;
+    border:0;
+  }
+
+.accordion i:active{
+  color:white;
+}
+.active {
+  animation: rotation 0.7s linear 0s 0.5;
+  animation-play-state: paused;
+}
+
+   @keyframes rotation {
+     to {
+       transform: rotate(180deg)
+     }
+   }
+ 
+  
+.card-container .top-part{
+  display: flex;
+  flex-direction: column;
+}
+
+
+  
+
+
+.card-container .top-part .top-middle-part{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:0.5rem;
+margin-top: 17px;
+width: 100%;
+}
+  
+ .card-container .top-part .top-middle-part .car-parts{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+ }
+  .card-container .top-part .top-middle-part .car-parts h5{
+margin-left: 5px;
+}
+ 
+  .card-container .top-part .third-part-container{
+      display: grid;
+  grid-template-columns: 1fr auto;
+  gap:0.5rem;
+margin-top: 17px;
+width: 100%;
+
+  }
+  .card-container .top-part .third-part-container .features{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 12px;
+  }
+  
+  .card-container .top-part .third-part-container .features h5{
+margin-left:5px;
+font-size: 0.5rem;
+}
+
+.card-container .top-part .fourth-part-container{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     margin-top:17px;
+}
+
+.card-container .top-part .fourth-part-container .left-part{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap:0.8rem;
+}
+
+.card-container .top-part .fourth-part-container .right-part{
+display: flex;
+flex-direction: column;
+}
+
+.card-container .top-part .fourth-part-container .right-part h3{
+   font-size: 20px;
+   font-weight:600;
+}
+
+
+.card-container .top-part .fifth-part-container{
+       display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     margin-top:17px;
+  
+}
+.card-container .top-part .fifth-part-container .left-part2{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap:0.8rem;
+}
+
+.card-container .top-part .fifth-part-container .left-part2 .items{
+display: grid;
+grid-template-columns: 10px 10px 10px;
+gap:0.9rem;
+}
+.card-container .top-part .fifth-part-container .right-part2{
+display: flex;
+flex-direction: column;
+gap: 0.3rem;
+}
+
+.card-container .top-part .fifth-part-container .right-part2 h4{
+   font-size: 15px;
+   font-weight:600;
+}
+
+.card-container .top-part .fifth-part-container .right-part2 h5{
+color:green;
+}
+
+ .star{
+  color: ghostwhite;
+}
+
+#reduce{
+  height:100px;
+}
+
+
+
+
+
+
+
+  
+}

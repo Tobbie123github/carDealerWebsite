@@ -1,0 +1,354 @@
+*{
+  padding:0;
+  margin:0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2{
+  font-family: 'Tilt Neon', cursive;
+
+}
+h3{
+  font-family: 'Open Sans', sans-serif;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+
+}
+p{
+    font-family: 'Tilt Neon', cursive;
+
+}
+
+@media screen and (max-width: 600px){
+  section#finance-first{
+    width: 100%;
+    margin-top: 5rem;
+  }
+  
+  section#finance-first .finance-head-container{
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:1rem;
+  align-items: center;
+  }
+  
+    section#finance-first .finance-head-container .finance-text{
+ width: 85%;
+ margin: 5px auto 0;
+  
+    }
+    section#finance-first .finance-head-container img{
+ width: 100%
+
+}
+
+    section#finance-first .finance-head-container h1{
+text-align: center;
+font-size: 30px;
+margin-top: 15px;
+line-height: 33px;
+
+
+    }
+  
+      section#finance-first .finance-head-container h5{
+text-align: center;
+color: lightsalmon;
+margin-top: 15px;
+
+}
+  
+      section#finance-first .finance-head-container p{
+line-height: 24px;
+margin-top: 15px;
+font-size: 20px;
+font-weight: 300;
+color:var(--text-color);
+transition:0.6s ease-in-out;
+
+}
+
+  section#finance-second{
+    width: 100%;
+    margin-top: 3.7rem;
+    padding: 30px 0px;
+  }
+ 
+    section#finance-second .second-head-container{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto;
+    gap:1.8rem;
+    justify-content: center;
+    align-items: center;
+  }
+section#finance-second .second-head-container h1{
+  font-size: 29px;
+  font-weight: 300;
+ text-align: center;
+ 
+}
+ section#finance-second .second-head-container h5{
+  text-align: center;
+color: lightsalmon;
+}
+section#finance-second .second-head-container .first-finance-content{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+height:200px;
+}
+section#finance-second .second-head-container .first-finance-content h4{
+font-size:19px;
+color:var(--text-color);
+text-align: center;
+transition:0.6s ease-in-out;
+}
+section#finance-second .second-head-container .second-finance-content h4{
+font-size:19px;
+color:var(--text-color);
+text-align: center;
+transition:0.6s ease-in-out;
+
+}
+section#finance-second .second-head-container .third-finance-content h4{
+font-size:19px;
+text-align: center;
+color:var(--text-color);
+transition:0.6s ease-in-out;
+
+}
+section#finance-second .second-head-container .second-finance-content{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+height:150px;
+
+}
+section#finance-second .second-head-container .third-finance-content{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+height:150px;
+
+}
+section#finance-second .second-head-container .first-finance-content img{
+width:40%;
+}
+section#finance-second .second-head-container .second-finance-content img{
+width:40%;
+
+}
+section#finance-second .second-head-container .third-finance-content img{
+width:40%;
+
+}
+
+  section#finance-second .second-head-container .fourth-finance-content{
+padding-top: 4.5rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+width: 100%;
+margin: 0 auto;
+  }
+ 
+   section#finance-second .second-head-container .fourth-finance-content h4 {
+ text-align: center;
+  color: lightsalmon;
+   }
+  
+  
+  
+section#finance-second .fifth-finance-content{
+  width:95%;
+display: grid;
+margin: 0 auto;
+grid-template-columns: auto;
+gap:1.8rem;
+  padding-top: 3rem;
+  }
+section#finance-second .fifth-finance-content .fin-row{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-content: flex-start;
+flex:1fr 1fr;
+width:100%;
+}
+section#finance-second .fifth-finance-content .fin-row span i{
+color:var(--text-color);
+transition:0.6s ease-in-out;
+font-size: 27px;
+}
+section#finance-second .fifth-finance-content .fin-row .fin-col{
+  display: flex;
+flex-direction: column;
+justify-content: space-between;
+width:90%;
+height:80px;
+color:var(--text-color);
+transition:0.6s ease-in-out;
+
+}
+  
+  
+  section#six-sec{
+    width: 100%;
+    margin-top: 3rem;
+
+  }
+  
+  section#six-sec .six-container{
+  width:99%;
+margin: 0 auto;
+display: grid;
+grid-template-columns: auto;
+justify-content: center;
+align-items: center;
+gap:1.2rem;
+
+
+}
+  
+  section#six-sec .six-container .top-area{
+display: flex;
+margin:0 auto;
+flex-direction: row;
+justify-content: space-around;
+align-items: flex-start;
+width:80%;
+  }
+    section#six-sec .six-container .top-area h5{
+font-size: 18px;
+line-height:26px;
+color:var(--text-color);
+transition:0.6s ease-in-out;
+width:70%;
+}
+  section#six-sec .six-container .top-area span i{
+font-size:50px;
+color: #D96459;
+
+  }
+
+section#six-sec .six-container #image4{
+     width: 100%;
+ background-image:
+    url('https://previews.123rf.com/images/baranq/baranq1603/baranq160300831/53957368-happy-man-sitting-at-desk-in-the-office.jpg');
+    height: 290px;
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+position: relative;
+}
+
+section#six-sec .six-container #image4 h1{
+position:absolute;
+top: 40%;
+width: 50%;
+left: 50%;
+font-size: 27px;
+text-align: right;
+color:#8A352C;
+font-weight: 400;
+} 
+  
+  
+
+
+section#faq-section{
+  width: 100%;
+  margin-top: 4.5rem;
+}  
+  
+section#faq-section .faq-container{
+width:90%;
+ margin: 0 auto;
+ display: flex;
+ justify-content: space-between;
+ flex-direction: column;
+ align-items: center;
+ height:auto;
+}
+ 
+section#faq-section .faq-container h1{
+width:80%;
+ text-align: center;
+ margin: 0 auto 20px;
+ font-size: 30px;
+ font-weight: 300;
+ 
+}
+ 
+ 
+ 
+ section#faq-section .faq-container #accordion{
+  width: 98%;
+  overflow: hidden;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  gap: 0.8rem;
+  border-radius: 7px;
+}
+
+ 
+  section#faq-section .faq-container #accordion .top-section{
+  display: flex;
+  border-radius:8px;
+background-color: whitesmoke;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+  section#faq-section .faq-container #accordion .top-section h4:hover{
+color:#AA4F46;
+}
+
+  section#faq-section .faq-container #accordion .top-section::after{
+content:'⬆️';
+font-size:24px;
+
+}
+.open::after{
+  content:'⬇️';
+  transform: rotate(180deg);
+
+}
+
+
+ section#faq-section .faq-container #accordion .content3{
+    width: 90%;
+  margin: 0 auto;
+  margin-top: 5px;
+  max-height:0;
+  overflow: hidden;
+  transition: 0.3s ease-out;
+border-radius:5px;
+
+}
+ section#faq-section .faq-container #accordion .content3 p{
+color:var(--text-color);
+transition:0.6s ease-in-out;
+line-height: 25px;
+ }
+}
