@@ -65,7 +65,8 @@ display:none;
  section#not-supported{
  width:100vw;
  height:100vh;
- background-color: black;
+ background-color: red;
+
  }
   section#not-supported h1{
 font-size:70px;
