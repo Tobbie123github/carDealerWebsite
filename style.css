@@ -70,7 +70,7 @@ display:none;
  }
   section#not-supported h1{
 font-size:70px;
-color:#fff;
+color:var(--text-color);
  width:100vw;
 text-align: center;
 position: absolute;
